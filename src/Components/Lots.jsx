@@ -103,7 +103,7 @@ const Lots = () => {
                   <div>{item.lot}</div>
                   <div className='d-md-none'>{item.inv}</div>
                 </td>
-                <td className='bg-transparent text-bluesh d-none d-md-table-cell'>{item.lot}</td>
+                <td className='bg-transparent text-bluesh d-none d-md-table-cell'>{item.inv}</td>
                 <td className='bg-transparent text-bluesh d-none d-md-table-cell'>{item.grade}</td>
                 <td className='bg-transparent text-bluesh'>
                   <div className='text-orange'>{item.garden}</div>
