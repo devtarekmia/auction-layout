@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  min-width: 20em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.text-blink {
+  animation-name: blinker;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blinker {
+  0% {
+    color: red;
+  }
+
+  50% {
+    color: yellow;
+  }
+
+  100% {
+    color: red;
+  }
+}
+
+.btn-orange {
+  background-color: #FF9600 !important;
+  color: white !important;
+}
+
+.btn-orange:hover,
+.btn-orange:active,
+.btn-orange:disabled {
+  background-color: #e68600 !important;
+}
+
+.text-bluesh {
+  color: #3B5998 !important;
+}
